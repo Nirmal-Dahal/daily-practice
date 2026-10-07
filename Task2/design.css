@@ -1,0 +1,24 @@
+body{
+    font-size: larger;
+}
+
+.font{
+    background-color: rgb(244, 222, 222);
+    width: 450px;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 1px;
+    box-shadow: 7px 7px 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(207, 237, 215);
+    width: 450px;
+    padding: 11px;
+    border-radius: 20px;
+    border: solid 1px;
+    box-shadow: 5px 5px 15px;
+    
+
+}

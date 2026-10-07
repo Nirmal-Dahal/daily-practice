@@ -1,0 +1,97 @@
+body {
+    margin: 25px auto;
+    width: 250px;
+    background: white;
+    font-size: 11px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+body > h1 {
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    background: rgb(71, 96, 117);
+    font: 16px;
+    border-radius: 5px;
+}
+
+body > a {
+    display: inline-block;
+    width: 50px;
+    margin: 3px 4px 4px 19px;
+    padding: 3px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(69, 123, 215);
+    border-radius: 3px;
+    border: 1px solid rgb(18, 18, 232);
+}
+
+
+.home {
+    margin: 0 5px 4px;
+    padding: 4px 7px;
+    background: linear-gradient(#ffe8ee, #ffdce5);
+    border: 1px solid #d9879a;
+    border-radius: 5px;
+}
+
+.home h1 {
+    color: #a00020;
+margin: 0;
+    font: 10px ;
+}
+
+.home p {
+    margin: 2px 0;
+}
+
+/* Gallery section */
+.gallery {
+    margin: 0 5px 4px;
+    padding: 4px 7px;
+    height: 90px;
+    background: linear-gradient(#b7eebc, #c8f7cd);
+    border: 1px solid #82d58c;
+    border-radius: 5px;
+}
+
+.gallery h1 {
+    color: #064d25;margin: 0;
+    font: 10px ;
+}
+
+.gallery img {
+    width: 90px;
+    height: 50px;
+    margin: 10px 5px 10px 20px;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.gallery img + img {
+    margin-left: 0  ;
+}
+
+/* Contact section */
+.contact {
+    margin: 0 5px 4px;
+    padding: 4px 7px;
+    background: linear-gradient(#dff3ff, #cdeaff);
+    border: 1px solid #7ab1cd;
+    border-radius: 5px;
+}
+
+.contact h1 {
+    color: #174d75;
+    margin: 0;
+    font: 10px ;
+}
+
+.contact p {
+    margin: 1px 0;
+}
